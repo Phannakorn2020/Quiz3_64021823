@@ -1,0 +1,13 @@
+package Quit;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class Area {
+@test
+	public void test() {
+		QuizOneJunit obj1 = new QuizOneJunit();
+		int out = obj1.square(5);
+		assertEquals(25, out);
+	}
+}
